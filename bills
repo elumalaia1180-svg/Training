@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+        int a,l,b,r,base,h;
+        a=sc.nextInt();
+        l=sc.nextInt();
+        b=sc.nextInt();
+        r=sc.nextInt();
+        base=sc.nextInt();
+        h=sc.nextInt();
+        System.out.println("Area of Square="+(a*a));
+        System.out.println("Area of Rectangle="+(l*b));
+        System.out.printf("Area of Circle=%.2f\n",Math.floor((Math.PI*r*r)*100)/100);
+        System.out.print("Area of Triangle="+(base*h)/2);
+    }
+}
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int n1,n2,n3;
+    n1=sc.nextInt();
+    n2=sc.nextInt();
+    n3=sc.nextInt();
+    System.out.println("Bill Details");
+    System.out.println("No of pizzas:"+n1);
+    System.out.println("No of puffs:"+n2);
+    System.out.println("No of cooldrinks:"+n3);
+    System.out.println("Total price="+((n1*100)+(n2*20)+(n3*10)));
+    System.out.print("ENJOY THE SHOW!!!");   
+ 
+    }
